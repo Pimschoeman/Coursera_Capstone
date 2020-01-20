@@ -1,0 +1,14 @@
+Data Science Capstone Project
+
+Introduction:
+Let's say we have a tourist that wants to go on on vacation and have no idea where to go. 
+You only know the tourist wants to go to a place that is very sunny and tropical.
+The problem that we are going to solve is to find tropical destinations for a nice vacation and find the best place to go. 
+We know that the tourist wants to go to a resort and there has to be a beach available. 
+Preferrably also some mountains or views to check out. 
+
+Methodology:
+We are going to find tropical destinations using tripadvisor and scrape data from the website. We will put it into a dataframe,
+add coordinates and then find venues in a radius of 20 kilometers of those places. Based on that,
+we will use K-means Clustering to pick places where our tourist can go. 
+
